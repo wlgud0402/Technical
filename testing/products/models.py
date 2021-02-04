@@ -12,4 +12,4 @@ class Product(models.Model):
 
     @property
     def is_in_stock(self):
-        return slef.quantity > 0
+        return self.quantity > 0
